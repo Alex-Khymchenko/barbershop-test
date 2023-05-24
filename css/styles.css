@@ -161,6 +161,7 @@ a {
 .hero-right {
     background-color: gray;
     flex-grow: 1;
+    padding: 272px 0 206px 96px;
 }
 
 .hero-list {
@@ -341,12 +342,28 @@ a {
 }
 
 .masters-pre-title {
-    color: var(--first-text-color); 
+    color: var(--first-text-color);
+    margin-bottom: 20px; 
 }
 
 .masters-title {
     color: var(--first-text-color);
+    margin-bottom: 44px;
 }
+
+.masters-list {
+    display: flex;
+    margin-left: -30px;
+}
+
+.masters-item {
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+}
+
+/* .masters-item + .masters-item {
+    margin-left: 30px;
+} */
 
 .masters-item-content {
     padding-top: 30px;
